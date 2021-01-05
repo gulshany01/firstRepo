@@ -4,12 +4,12 @@ import BuildControl from '../../components/Burger/BurgerControl/BuildControl'
 
 import Modal from "../../components/UI/Modal/Modal"
 import OrderSummary from "../../components/Burger/Ordersummary/OrderSummary"
-
+// burger price is changed please refer to this change 
 const   INGREDIENT_PRICES = {
     salad: 0.5,
     cheese: 0.4,
     meat: 1.3,
-    bacon: 0.7
+    bacon: 1.0
 }
 
 class BurgerBuilder extends Component{
